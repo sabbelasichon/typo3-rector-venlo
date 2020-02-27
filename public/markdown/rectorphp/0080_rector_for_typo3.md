@@ -1,0 +1,1 @@
+## State of TYPO3 versions used in the wild

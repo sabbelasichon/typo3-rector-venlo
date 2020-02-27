@@ -1,0 +1,21 @@
+@import "~reveal.js/css/reset.css";
+@import "~reveal.js/css/reveal.css";
+@import "~reveal.js/css/theme/night.css";
+@import "~reveal.js/lib/css/monokai.css";
+
+.emphasized {
+    color: #ffee00;
+}
+
+.reveal section img {
+    border: 1px solid #ffee00;
+}
+
+.reveal section img.no-border {
+    border: 0;
+    box-shadow: none;
+}
+
+.reveal section img.meetup {
+    background: #111;
+}

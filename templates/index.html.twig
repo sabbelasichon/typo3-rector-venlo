@@ -1,0 +1,17 @@
+{%  extends 'base.html.twig' %}
+
+{% block title %}
+    All my presentations
+{% endblock %}
+
+{% block body  %}
+    <div class="container">
+        <div class="center">
+            <h1>All my presentations</h1>
+            <ul>
+                <li><a href="{{ path('php7') }}">PHP 7 <small>(26.08.2017)</small></a></li>
+                <li><a href="{{ path('rectorphp') }}">RectorPHP <small>(16.10.2019)</small></a></li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}

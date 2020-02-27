@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>{{ pageTitle }} | Sebastian Schreiber</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    {{ encore_entry_link_tags('presentation') }}
+
+</head>
+
+<body>
+
+<div class="reveal">
+    <div class="slides">
+        {% for file in finder %}
+            <section data-markdown="/markdown/{{ directory }}/{{ file.filename }}" data-separator="---" data-separator-vertical="^\n\n" data-notes="^Note:" data-charset="utf-8">
+            </section>
+        {% endfor %}
+    </div>
+</div>
+
+{{ encore_entry_script_tags('presentation') }}
+
+</body>
+</html>

@@ -8,7 +8,6 @@ Encore
     .setOutputPath('public/build/')
     .setPublicPath('/build')
     .addEntry('presentation', './assets/js/presentation.js')
-    .addStyleEntry('index', './assets/css/index.css')
     .splitEntryChunks()
     .enableSingleRuntimeChunk()
     .cleanupOutputBeforeBuild()
@@ -25,6 +24,9 @@ Encore
     })
     .enableSassLoader()
     .enableIntegrityHashes(Encore.isProduction())
+    .autoProvideVariables({
+        'Reveal': 'reveal.js'
+    })
 ;
 
 module.exports = Encore.getWebpackConfig();

@@ -38,6 +38,6 @@ final class PresentationController extends AbstractController
 
     private function getMarkdownDirectory(): string
     {
-        return dirname($this->getParameter('kernel.project_dir')). '/html/public/markdown/';
+        return $this->getParameter('kernel.project_dir'). '/public/markdown/';
     }
 }

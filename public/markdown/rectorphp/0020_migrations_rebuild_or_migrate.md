@@ -1,1 +1,1 @@
-## Agenda
+## TYPO3 migrations, a fact of life. To Rebuild or to migrate? That's the question

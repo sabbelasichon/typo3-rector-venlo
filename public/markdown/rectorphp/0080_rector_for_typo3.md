@@ -1,1 +1,1 @@
-## State of TYPO3 versions used in the wild
+## TYPO3 Rector can be a solution for all those people

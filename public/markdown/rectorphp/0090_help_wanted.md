@@ -1,1 +1,1 @@
-## TYPO3 Rector can be a solution for all those people
+## We need your help!

@@ -25,7 +25,8 @@ Encore
     .enableSassLoader()
     .enableIntegrityHashes(Encore.isProduction())
     .autoProvideVariables({
-        'Reveal': 'reveal.js'
+        'Reveal': 'reveal.js',
+        'hljs': 'highlight.js'
     })
 ;
 

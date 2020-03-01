@@ -4,10 +4,8 @@
     // include index.html for webpack to load
 
     import(/* webpackPrefetch: true */ 'reveal.js/css/reveal.css');
-    import(/* webpackPrefetch: true */ 'reveal.js/css/theme/night.css');
+    import(/* webpackPrefetch: true */ 'reveal.js/css/theme/moon.css');
     import(/* webpackPrefetch: true */ 'reveal.js/lib/css/monokai.css'); // for code colors
-
-    const hljs = require('highlight.js');
 
     Reveal.initialize({
         // Display presentation control arrows

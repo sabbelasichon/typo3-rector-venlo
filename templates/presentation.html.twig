@@ -19,7 +19,7 @@
 <div class="reveal">
     <div class="slides">
         {% for file in finder %}
-            <section data-markdown="/markdown/{{ directory }}/{{ file.filename }}" data-separator="---" data-separator-vertical="^\n\n" data-notes="^Note:" data-charset="utf-8">
+            <section data-markdown="/markdown/{{ directory }}/{{ file.filename }}" data-separator="---" data-separator-vertical="^\n\n" data-separator-notes="^Note:">
             </section>
         {% endfor %}
     </div>

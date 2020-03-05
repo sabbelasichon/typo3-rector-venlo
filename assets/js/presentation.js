@@ -6,6 +6,7 @@
     import(/* webpackPrefetch: true */ 'reveal.js/css/reveal.css');
     import(/* webpackPrefetch: true */ 'reveal.js/css/theme/moon.css');
     import(/* webpackPrefetch: true */ 'reveal.js/lib/css/monokai.css'); // for code colors
+    import(/* webpackPrefetch: true */ '../scss/custom.scss');
 
     Reveal.initialize({
         // Display presentation control arrows
@@ -154,8 +155,8 @@
         dependencies: [
             { src: require('reveal.js/plugin/markdown/marked'), async: true},
             { src: require('reveal.js/plugin/markdown/markdown'), async: true},
-            { src: require('reveal.js/plugin/notes/notes.js'), async: true },
-            { src: require('reveal.js/plugin/zoom-js/zoom.js'), async: true }
+            { src: require('reveal.js/plugin/zoom-js/zoom.js'), async: true },
+            { src: require('reveal.js/plugin/notes/notes.js'), async: true }
         ]
     });
 
